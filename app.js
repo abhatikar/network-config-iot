@@ -19,6 +19,8 @@ app.post('/reboot', function (req, res) {
 		    }
 		    });   
     res.send(' rebooted Successfully!');
+	//TODO Send IP address to the user of the Pi
+//curl  -d '{"to":"kapish","from":"abhi","message":"Just a test"}' -X POST https://snaptext.live
 });
 
 
